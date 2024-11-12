@@ -40,9 +40,13 @@ Návod na nahratie: https://huggingface.co/docs/datasets/audio_load
 2. pripraviť si data
 
 dataset/
+
 ├── common_voice_cs_20424365.mp3
+
 ├── common_voice_cs_20424366.mp3
+
 ├── ...
+
 └── metadata.csv
 
  csv sa musí volať metadata.csv a v nej sa musí nachádzať stĺpec file_name
