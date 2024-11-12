@@ -1,23 +1,25 @@
 # dataset_tts_json
 **dataset.json** je vytvorený z dvoch častí  {text, audio}
 
-audio je vo formáte .mp3
+Audio je vo formáte .mp3
+
+JSON formát je vytvorený pre ukážku
 
 # metadata.csv
 
-bolo použité na nahranie datasetu na huggingface
+Bolo použité na nahranie datasetu na huggingface
 
-je uložene spolu s audio nahravkami v jednom priečinku
+Je uložene spolu s audio nahravkami v jednom priečinku
 
-audio je vo formáte .mp3
+Audio je vo formáte .mp3
 
-medatata.csv sa skladá z dvoch sĺpcov {file_name, text}
+Medatata.csv sa skladá z dvoch sĺpcov {file_name, text}
 
-file_name je názov audio nahravky
+File_name je názov audio nahravky
 
-text je textový formát audia
+Text je textový formát audia
 
-na nahratie som použil skript data_loader.py, ktorý sa nachádza v repozitáry 
+Na nahratie som použil skript data_loader.py, ktorý sa nachádza v repozitáry 
 
 
 # Zostavenie datasetu na huggingface
