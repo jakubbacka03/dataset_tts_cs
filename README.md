@@ -1,11 +1,14 @@
-## dataset_tts_json
+# dataset_tts_json
+
+## dataset.json
+
 **dataset.json** je vytvorený z dvoch častí  {text, audio}
 
 Audio je vo formáte .mp3
 
 JSON formát je vytvorený pre ukážku
 
-# metadata.csv
+## metadata.csv
 
 Bolo použité na nahranie datasetu na huggingface
 
@@ -22,7 +25,8 @@ Text je textový formát audia
 Na nahratie som použil skript data_loader.py, ktorý sa nachádza v repozitáry 
 
 
-# Zostavenie datasetu na huggingface
+## Zostavenie datasetu na huggingface
+
 Datasety pre modely na huggingface pre prevod textu na reč majú danú štruktúru aby boli kompatibilné s modelmi na huggingface platforme.
 
 Veľakrát sú vo formáte text-audio a slúžia na trénovanie modelov aby generovali audio na základe textových vstupov.
