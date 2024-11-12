@@ -8,6 +8,6 @@ Datasety pre modely na huggingface pre prevod textu na reč majú danú štrukt�
 
 Veľakrát sú vo formáte text-audio a slúžia na trénovanie modelov aby generovali audio na základe textových vstupov.
 
-Najčastejšie  sú uložené vo formáte JSON alebo JSONL, kde každý riadok predstavuje jednu položku datasetu .
+Najčastejšie  sú uložené vo formáte JSON alebo JSONL, kde každý riadok predstavuje jednu položku datasetu.
 
-Zvukové nahrávky majú najčastejšie formát .mp3 alebo.wav a sú odkázané relatívnymi cestami alebo url adresami 
+Zvukové nahrávky majú najčastejšie formát .mp3 alebo .wav a sú odkázané relatívnymi cestami alebo url adresami.
